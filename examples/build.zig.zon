@@ -1,0 +1,21 @@
+.{
+    .name = .examples,
+    .version = "0.0.0",
+    .fingerprint = 0x7bd0ad45413b21e9, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.1",
+
+    .dependencies = .{
+        .cjson = .{
+            .path = "..",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
